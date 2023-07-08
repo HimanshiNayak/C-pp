@@ -1,3 +1,14 @@
+//types of constants in c++
+
+//1.literal contsnts: the most obvious type of constant ..eg: int x =9; float y =9.87 etc.
+//   integer literal constants: 12 - an int ,12U - unsigned int , 12L - long int, 12LL- long long int
+// floating point literal const : 12.1 - double const , 12.1F - float , 12.1L - long double
+
+// escape codes like \n , \t etc come under char literal const
+// to declare a const we use the const keyword: 
+//    const double pi{3.1415962} etc . only pi = 2.5 gives compiler error
+
+//defined const : # define pi 3.1415962 .. the pre processor just replace pi with the value everywhere
 #include<iostream>
 #include<iomanip>
 using namespace std;
